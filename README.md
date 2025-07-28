@@ -1,6 +1,6 @@
 ### Quali sono le principali figate di kubernetes, rispetto a docker
 
-Nel caso di gestione di un'applicazione con architettura a microservizi (come un sito e-commerce con frontend, backend, database, cache, servizi di pagamento, ecc.) che deve essere sempre disponibile, anche in caso di guasti, e che deve poter scalare automaticamente in base al traffico, l'rchestratore migliore è Kubernetes.
+Nel caso di gestione di un'applicazione con architettura a microservizi (come un sito e-commerce con frontend, backend, database, cache, servizi di pagamento, ecc.) che deve essere sempre disponibile, anche in caso di guasti, e che deve poter scalare automaticamente in base al traffico, l'orchestratore migliore è Kubernetes.
 
 Con Docker puoi avviare e gestire facilmente i container dei vari servizi su una singola macchina o su poche macchine, ma la gestione della scalabilità, del bilanciamento del carico, del riavvio automatico dei servizi in caso di errore e degli aggiornamenti senza downtime richiede molto lavoro oppure il coinvolgimento di strumenti aggiuntivi.
 
